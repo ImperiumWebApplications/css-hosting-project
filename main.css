@@ -1,7 +1,6 @@
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("images/freedom.jpg") center/cover no-repeat border-box,
-    #ff1b68;
+    url("images/freedom.jpg") center/cover no-repeat border-box, #ff1b68;
   /* background-image: url("freedom.jpg");
     background-size: cover;
     background-position: left 10% bottom 20%; */
@@ -127,9 +126,16 @@
 }
 
 .key-feature {
-  display: inline-block;
-  width: 30%;
+  width: 100%;
   vertical-align: top;
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+  }
 }
 
 .key-feature__image {
