@@ -78,10 +78,16 @@ body {
 }
 
 .main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(100% - 60px);
-  vertical-align: middle;
+  display: none;
+}
+
+@media (min-width: 40rem) {
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 60px);
+    vertical-align: middle;
+  }
 }
 
 .main-nav__items {
@@ -143,7 +149,7 @@ body {
   margin: 1rem 0;
 }
 
-@media (min-width:40rem) {
+@media (min-width: 40rem) {
   .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
