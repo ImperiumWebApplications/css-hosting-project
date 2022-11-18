@@ -60,6 +60,7 @@
   .testimonial {
     font-size: 1.2rem;
     margin: 3rem 0;
+    max-width: 1500px;
   }
 
   .testimonial__image-container {
