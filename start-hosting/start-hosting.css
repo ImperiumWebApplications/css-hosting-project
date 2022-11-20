@@ -24,7 +24,7 @@ main {
   width: 100%;
 }
 
-.signup-form input:not([type="checkbox"]):focus,
+.signup-form input:focus,
 .signup-form select:focus {
   outline: none;
   background: #d8f3df;
