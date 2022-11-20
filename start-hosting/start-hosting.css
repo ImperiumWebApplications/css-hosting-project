@@ -59,8 +59,9 @@ main {
 }
 
 .signup-form input.invalid,
-.signup-form select.invalid {
-  border: 1px solid red;
+.signup-form select.invalid,
+.signup-form :invalid {
+  border: 1px solid red !important;
   background: rgb(250, 172, 172);
 }
 
