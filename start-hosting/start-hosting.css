@@ -24,6 +24,13 @@ main {
   width: 100%;
 }
 
+.signup-form input:focus,
+.signup-form select:focus {
+  outline: none;
+  background: #d8f3df;
+  border-color: #2ddf5c;
+}
+
 .signup-form input[type="checkbox"],
 .signup-form input[type="checkbox"] + label {
   display: inline-block;
