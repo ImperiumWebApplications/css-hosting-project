@@ -6,6 +6,7 @@
 @font-face {
   font-family: "AnonymousPro";
   src: url("AnonymousPro-Bold.ttf");
+  font-weight: 700;
 }
 
 main {
@@ -65,7 +66,6 @@ main {
   color: #0e4f1f;
   background: white;
   font-family: "AnonymousPro", sans-serif;
-  font-weight: 400;
 }
 
 .clearfix {
