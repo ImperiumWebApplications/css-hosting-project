@@ -225,5 +225,11 @@ main {
 }
 
 .open {
-  display: block !important;
+  display: block;
+}
+
+@media (min-width: 40rem) {
+  .open {
+    display: none;
+  }
 }
