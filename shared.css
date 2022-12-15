@@ -246,7 +246,9 @@ main {
 }
 
 .open {
-  display: block;
+  display: block !important;
+  opacity: 1 !important;
+  transform: translateX(0) !important;
 }
 
 @media (min-width: 40rem) {
