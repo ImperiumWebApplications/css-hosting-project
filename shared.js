@@ -37,10 +37,10 @@ function closeModal() {
   if (modal) {
     modal.classList.remove("open");
   }
-  backdrop.style.display = "none";
+  backdrop.classList.remove("open");
   setTimeout(() => {
-    backdrop.classList.remove("open");
-  }, 10);
+    backdrop.style.display = "none";
+  }, 200);
 }
 
 toggleButton.addEventListener("click", function () {
