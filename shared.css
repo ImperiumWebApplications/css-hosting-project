@@ -145,6 +145,10 @@ main {
   border: none;
 }
 
+.main-nav__item--cta {
+  animation: wiggle 1s forwards;
+}
+
 .main-footer {
   background: black;
   padding: 2rem;
@@ -259,5 +263,14 @@ main {
 @media (min-width: 40rem) {
   .open {
     display: none;
+  }
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
   }
 }
