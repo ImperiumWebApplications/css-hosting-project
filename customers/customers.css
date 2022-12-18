@@ -82,4 +82,20 @@ main {
   .testimonial__info {
     width: 30%;
   }
+
+  #customer-1:hover .testimonial__image-container {
+    animation: flipCustomer 1s ease-out forwards;
+  }
+}
+
+@keyframes flipCustomer {
+  0% {
+    transform: rotateY(0deg) skew(20deg);
+  }
+  50% {
+    transform: rotateY(180deg) skew(20deg);
+  }
+  100% {
+    transform: rotateY(360deg) skew(20deg);
+  }
 }
