@@ -146,7 +146,7 @@ main {
 }
 
 .main-nav__item--cta {
-  animation: wiggle 1s forwards;
+  animation: wiggle 400ms 8 ease-out none;
 }
 
 .main-footer {
@@ -271,6 +271,18 @@ main {
     transform: rotateZ(0deg);
   }
   to {
+    transform: rotateZ(10deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
     transform: rotateZ(10deg);
   }
 }
