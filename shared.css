@@ -245,7 +245,7 @@ main {
 .button:hover,
 .button:active {
   background: white;
-  color:var(--dark-green);
+  color: var(--dark-green);
 }
 
 .button:focus {
